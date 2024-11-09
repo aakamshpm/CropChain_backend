@@ -1,0 +1,6 @@
+@CropChainBackend_HostAddress = http://localhost:5193
+
+GET {{CropChainBackend_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
