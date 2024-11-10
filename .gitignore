@@ -1,0 +1,40 @@
+# .NET Core
+bin/
+obj/
+.vs/
+.vscode/
+.idea/
+
+# User-specific files
+*.user
+*.userosscache
+*.suo
+*.userprefs
+
+# Windows Installer files
+*.cab
+*.msi
+*.msm
+*.msp
+
+# ASP.NET Core
+project.lock.json
+project.fragment.lock.json
+*.[Cc]ache
+*.log
+
+# JetBrains Rider
+.idea/
+
+# VS for Mac
+.vscode/
+
+# Entity Framework
+# (if using EF Migrations)
+migrations/
+
+# npm
+node_modules/
+
+# dotenv environment variables file
+.env
