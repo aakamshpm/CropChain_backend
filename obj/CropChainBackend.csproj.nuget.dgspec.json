@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Aakmsh\\BCA_Project\\CropChain\\cropchainbackend\\CropChainBackend.csproj": {}
+    "D:\\Aakmsh\\BCA_Project\\CropChain\\CropChainBackend\\CropChainBackend.csproj": {}
   },
   "projects": {
-    "D:\\Aakmsh\\BCA_Project\\CropChain\\cropchainbackend\\CropChainBackend.csproj": {
+    "D:\\Aakmsh\\BCA_Project\\CropChain\\CropChainBackend\\CropChainBackend.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Aakmsh\\BCA_Project\\CropChain\\cropchainbackend\\CropChainBackend.csproj",
+        "projectUniqueName": "D:\\Aakmsh\\BCA_Project\\CropChain\\CropChainBackend\\CropChainBackend.csproj",
         "projectName": "CropChainBackend",
-        "projectPath": "D:\\Aakmsh\\BCA_Project\\CropChain\\cropchainbackend\\CropChainBackend.csproj",
+        "projectPath": "D:\\Aakmsh\\BCA_Project\\CropChain\\CropChainBackend\\CropChainBackend.csproj",
         "packagesPath": "C:\\Users\\Aakmsh\\.nuget\\packages\\",
-        "outputPath": "D:\\Aakmsh\\BCA_Project\\CropChain\\cropchainbackend\\obj\\",
+        "outputPath": "D:\\Aakmsh\\BCA_Project\\CropChain\\CropChainBackend\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Aakmsh\\AppData\\Roaming\\NuGet\\NuGet.Config"

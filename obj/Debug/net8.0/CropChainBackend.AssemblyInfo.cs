@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("CropChainBackend")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+fdb57c1f0ba0e053617ab7199ab6aaaa29a03282")]
 [assembly: System.Reflection.AssemblyProductAttribute("CropChainBackend")]
 [assembly: System.Reflection.AssemblyTitleAttribute("CropChainBackend")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

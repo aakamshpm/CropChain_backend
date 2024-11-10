@@ -36,10 +36,8 @@ builder.Services.AddAuthentication("Bearer")
         {
             OnChallenge = async context =>
             {
-                // Skip the default response
                 context.HandleResponse();
 
-                // Set response status code and content type
                 context.Response.StatusCode = StatusCodes.Status401Unauthorized;
                 context.Response.ContentType = "application/json";
 
@@ -48,8 +46,6 @@ builder.Services.AddAuthentication("Bearer")
                 {
                     message = "You are not authorized to access this resource. Please log in."
                 };
-
-                // Write the JSON response
                 var jsonResponse = JsonSerializer.Serialize(response);
                 await context.Response.WriteAsync(jsonResponse);
             }
@@ -59,7 +55,6 @@ builder.Services.AddAuthentication("Bearer")
 builder.Services.AddAuthorization();
 var app = builder.Build();
 
-// Configure the HTTP request pipeline.
 if (app.Environment.IsDevelopment())
 {
     app.UseSwagger();
